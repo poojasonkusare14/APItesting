@@ -1,4 +1,3 @@
-# APItesting_reflektion
 # API testing
 
 ### Setup Virtualenv
