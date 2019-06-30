@@ -1,0 +1,12 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): jsonplaceholder.typicode.com:443
+DEBUG:urllib3.connectionpool:https://jsonplaceholder.typicode.com:443 "GET /posts HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): jsonplaceholder.typicode.com:443
+DEBUG:urllib3.connectionpool:https://jsonplaceholder.typicode.com:443 "GET /posts/1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): jsonplaceholder.typicode.com:443
+DEBUG:urllib3.connectionpool:https://jsonplaceholder.typicode.com:443 "GET /invalidposts HTTP/1.1" 404 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): jsonplaceholder.typicode.com:443
+DEBUG:urllib3.connectionpool:https://jsonplaceholder.typicode.com:443 "POST /posts HTTP/1.1" 201 65
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): jsonplaceholder.typicode.com:443
+DEBUG:urllib3.connectionpool:https://jsonplaceholder.typicode.com:443 "PUT /posts/1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): jsonplaceholder.typicode.com:443
+DEBUG:urllib3.connectionpool:https://jsonplaceholder.typicode.com:443 "DELETE /posts/1 HTTP/1.1" 200 2
